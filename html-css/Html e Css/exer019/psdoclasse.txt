@@ -1,0 +1,20 @@
+As pseudo classes são usadas para estilizar elementos com base em interações do usuário, estados do elemento ou sua posição na estrutura do documento. Aqui estão alguns exemplos de pseudo classes comuns:
+
+
+                        Algumas Pseudo Classes
+
+:hover: Aplica estilos quando o cursor do mouse está sobre o elemento.
+
+:active: Aplica estilos quando o elemento está sendo clicado.
+
+:focus: Aplica estilos quando o elemento está em foco (por exemplo, quando é selecionado usando a tecla Tab).
+
+:first-child: Aplica estilos ao primeiro elemento de um determinado tipo dentro de um elemento pai.
+
+:last-child: Aplica estilos ao último elemento de um determinado tipo dentro de um elemento pai.
+
+:nth-child(n): Aplica estilos a elementos específicos, contados a partir do primeiro elemento.
+
+:nth-of-type(n): Aplica estilos a elementos específicos de um determinado tipo.
+
+:not(selector): Seleciona elementos que não correspondem ao seletor fornecido.

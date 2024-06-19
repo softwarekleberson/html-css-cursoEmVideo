@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative; /*Criação de cabeçalho fixo*/
+        }
+
+        thead > tr > th {
+            position: sticky; /*Fica grudado sempre em algum lugar*/
+            top: -1px; /*Fixa o cabeçalho no topo, esse -1 é para não criar um vão pequeno*/
+            background-color: black; /*Acompanha a cor do cabechalho*/
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        td.num {
+            text-align: left;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        } 
+
+        tbody > tr:nth-child(odd){ /* 2n -1*/
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even){ /* 2n */
+            background-color: lightgrey;
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+        <caption>População Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 035</td>
+            </tr>
+            <tr>
+                <td>Rio De janeiro</td>
+                <td class="num">17 264 789</td>
+            </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td class="num">5 147 032</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>12 471 055</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td>5 741 987</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td>7 894 222</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do sul</td>
+                <td>1 478 630</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>12 963 000</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>860 741</td>
+            </tr>
+            <tr>
+                <td>Pernanbuco</td>
+                <td>4 508 630</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td>5 489 365</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td>4 7962 053</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td>2 741 658</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td>7 983 612</td>
+            </tr>
+            <tr>
+                <td>Goias</td>
+                <td>9 6513 007</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>30 471 852</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odit hic cupiditate velit maiores, inventore et aliquid magni harum ex nostrum dolor debitis laudantium, nemo quod cum. Accusamus, voluptatum maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae tenetur, officia nobis ullam delectus cumque eligendi ipsum autem doloribus obcaecati alias natus aliquid! Soluta nulla voluptatum voluptates minima numquam inventore.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odit hic cupiditate velit maiores, inventore et aliquid magni harum ex nostrum dolor debitis laudantium, nemo quod cum. Accusamus, voluptatum maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae tenetur, officia nobis ullam delectus cumque eligendi ipsum autem doloribus obcaecati alias natus aliquid! Soluta nulla voluptatum voluptates minima numquam inventore.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odit hic cupiditate velit maiores, inventore et aliquid magni harum ex nostrum dolor debitis laudantium, nemo quod cum. Accusamus, voluptatum maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae tenetur, officia nobis ullam delectus cumque eligendi ipsum autem doloribus obcaecati alias natus aliquid! Soluta nulla voluptatum voluptates minima numquam inventore.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odit hic cupiditate velit maiores, inventore et aliquid magni harum ex nostrum dolor debitis laudantium, nemo quod cum. Accusamus, voluptatum maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae tenetur, officia nobis ullam delectus cumque eligendi ipsum autem doloribus obcaecati alias natus aliquid! Soluta nulla voluptatum voluptates minima numquam inventore.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odit hic cupiditate velit maiores, inventore et aliquid magni harum ex nostrum dolor debitis laudantium, nemo quod cum. Accusamus, voluptatum maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae tenetur, officia nobis ullam delectus cumque eligendi ipsum autem doloribus obcaecati alias natus aliquid! Soluta nulla voluptatum voluptates minima numquam inventore.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odit hic cupiditate velit maiores, inventore et aliquid magni harum ex nostrum dolor debitis laudantium, nemo quod cum. Accusamus, voluptatum maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae tenetur, officia nobis ullam delectus cumque eligendi ipsum autem doloribus obcaecati alias natus aliquid! Soluta nulla voluptatum voluptates minima numquam inventore.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odit hic cupiditate velit maiores, inventore et aliquid magni harum ex nostrum dolor debitis laudantium, nemo quod cum. Accusamus, voluptatum maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae tenetur, officia nobis ullam delectus cumque eligendi ipsum autem doloribus obcaecati alias natus aliquid! Soluta nulla voluptatum voluptates minima numquam inventore.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odit hic cupiditate velit maiores, inventore et aliquid magni harum ex nostrum dolor debitis laudantium, nemo quod cum. Accusamus, voluptatum maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae tenetur, officia nobis ullam delectus cumque eligendi ipsum autem doloribus obcaecati alias natus aliquid! Soluta nulla voluptatum voluptates minima numquam inventore.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odit hic cupiditate velit maiores, inventore et aliquid magni harum ex nostrum dolor debitis laudantium, nemo quod cum. Accusamus, voluptatum maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae tenetur, officia nobis ullam delectus cumque eligendi ipsum autem doloribus obcaecati alias natus aliquid! Soluta nulla voluptatum voluptates minima numquam inventore.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odit hic cupiditate velit maiores, inventore et aliquid magni harum ex nostrum dolor debitis laudantium, nemo quod cum. Accusamus, voluptatum maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae tenetur, officia nobis ullam delectus cumque eligendi ipsum autem doloribus obcaecati alias natus aliquid! Soluta nulla voluptatum voluptates minima numquam inventore.</p>
+</body>
+</html>

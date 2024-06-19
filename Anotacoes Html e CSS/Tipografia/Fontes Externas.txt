@@ -1,0 +1,4 @@
+google fonts
+dafont
+	atenção com o dafont : baixe e clique ocom o botão direito nele e va ate propriedades, lá o 
+	formato de arquivo será dado

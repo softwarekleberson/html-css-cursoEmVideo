@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Level</title>
+    <style>
+        h1 {
+
+            /*Quer trocar o formato
+
+                display : inline
+                display : block
+            
+            */
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+
+            border: 10px solid darkslategrey;
+
+            padding: 10px;
+
+            margin: 20px auto 40px auto;
+
+            /*outline fica entre a borda e a margin, como se fosse a borda da borda*/
+            
+            outline: 5px dashed salmon;
+            
+            /*
+            -- caso queira centralizar ao centro, automaticamente
+            margin:auto;
+            */
+
+        }
+
+        a {
+
+           border: 10px solid red;
+           padding: 10px 10px 10px 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>O h1 é um exemplo de box level</h1>
+    <p>O paragrafo também é um box level, os links <a href="#">Não são</a> Box level e sim Inline Levels</p>
+</body>
+</html>

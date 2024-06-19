@@ -1,0 +1,6 @@
+scope="row" é um atributo utilizado em elementos HTML para indicar que o conteúdo da célula pertence à linha (row)
+atual da tabela. No seu exemplo, ele está sendo aplicado a um elemento <th> (cabeçalho da tabela), indicando que o cabeçalho pertence à linha em questão.
+
+No contexto da acessibilidade na web, o atributo scope="row" é importante para identificar o propósito semântico das células em uma tabela para usuários
+de leitores de tela. Quando um leitor de tela encontra uma célula de cabeçalho (<th>) com o atributo scope="row", ele entende que esse cabeçalho pertence 
+àquela linha da tabela, facilitando a compreensão do conteúdo para pessoas com deficiência visual ou outras necessidades de acessibilidade.

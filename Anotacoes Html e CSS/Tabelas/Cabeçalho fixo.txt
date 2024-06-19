@@ -1,0 +1,11 @@
+ table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;                     /*Criação de cabeçalho fixo*/
+        }
+
+        thead > tr > th {
+            position: sticky;                   /*Fica grudado sempre em algum lugar*/
+            top: -1px;                         /*Fixa o cabeçalho no topo, esse -1 é para não criar um vão pequeno*/
+            background-color: black;          /*Acompanha a cor do cabechalho*/
+        }

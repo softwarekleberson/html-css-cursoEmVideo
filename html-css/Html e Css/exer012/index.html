@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens que se adaptam</title>
+</head>
+<body>
+    <h1>Imagens adaptadas</h1>
+    <p>Tente abrir as imagens em diferentes dispositivos ou diminua o seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir audios em html</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="audio/audio.mp3" type="audio/mpeg">
+        <source src="audio/audio.mp3" type="audio/ogg">
+        <p>Infelismente seu navegador não consegue reproduzir esse conteudo <a href="audio/audio.mp3">Clique para baixar o arquivo</a></p>
+
+    </audio>
+</body>
+</html>

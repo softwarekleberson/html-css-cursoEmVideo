@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 3</title>
+</head>
+<body>
+    <form action="cadastrar.html" method="get" autocomplete="on">
+        <p>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required maxlength="30" placeholder="Digite seu nome" autocomplete="name">
+        </p>
+        <p>
+            <label for="nota">Nota</label>
+            <input type="number" value="5" name="nota" id="nota" min="0" max="10" step="0.1" placeholder="0 até 10" required>
+        </p>
+        <p>
+            <label for="data">Período Letivo</label>
+            <input type="month" name="data" id="data" value="2024-06">
+        </p>
+        <p>
+            <label for="dia">Dia Da Prova</label>
+            <input type="date" name="dia" id="dia">
+        </p>
+        <p>
+            <label for="hora">Horário da Prova</label>
+            <input type="time" name="hora" id="hora">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

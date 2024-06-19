@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        caption {
+          font-size: 1.5em;
+          font-weight: bold;
+          padding: 1em;
+        }
+        th, td {
+          border: 1px solid #ddd;
+          padding: 0.5em;
+          text-align: left;
+        }
+        col.cnome {
+            background-color: chartreuse;
+        }
+        col.csexo {
+            background-color: aqua;
+        }
+      </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+    </table>
+</body>
+</html>

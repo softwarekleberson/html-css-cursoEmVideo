@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela de Filmes por Grupo</title>
+  <style>
+    
+    table {
+      border-collapse: collapse;
+      width: 300px;
+    }
+
+    th, td { 
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    .grupo { 
+      font-weight: bold;
+    }
+    .filmes { 
+      background-color: #f5f5f5; 
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+
+    <thead>
+      <tr>
+        <th class="grupo" scope="col">Grupo</th>
+        <th scope="col">Nomes</th>
+        <th class="filmes" colspan="4" scope="colgroup">Filmes</th>
+      </tr>
+    </thead>
+
+    <tfoot>
+      <tr>
+        <th colspan="4" scope="row">Total</th>
+        <td>100</td>
+      </tr>
+    </tfoot>
+
+    <tbody>
+      <tr>
+        <th rowspan="3" class="grupo" scope="rowgroup">Mulheres</th>
+        <td>Ana Maria Santos</td>
+        <td class="filmes">Alien</td>
+        <td class="filmes">Rambo</td>
+        <td class="filmes">Vingadores</td>
+      </tr>
+
+      <tr>
+        <td>Beatriz Souza</td>
+        <td class="filmes">Hulk</td>
+        <td class="filmes">Inception</td>
+        <td class="filmes">Batman</td>
+      </tr>
+
+      <tr>
+        <td>Claudia Melo</td>
+        <td class="filmes">Oblivion</td>
+        <td class="filmes">Matriz</td>
+        <td class="filmes">Big Hero</td>
+      </tr>
+
+      <tr>
+        <th rowspan="3" class="grupo" scope="rowgroup">Homens</th>
+        <td>Bruno Mendonça</td>
+        <td class="filmes">Intocaveis</td>
+        <td class="filmes">Amnésia</td>
+        <td class="filmes">Gladiador</td>
+      </tr>
+
+      <tr>
+        <td>Daniel Loureço</td>
+        <td class="filmes">Wall-E</td>
+        <td class="filmes">Oldboy</td>
+        <td class="filmes">Dangel</td>
+      </tr>
+
+      <tr>
+        <td>Fabiano Mota</td>
+        <td class="filmes">Star Wars 5</td>
+        <td class="filmes">Taxi Drive</td>
+        <td class="filmes">Toy Story</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+</body>
+</html>

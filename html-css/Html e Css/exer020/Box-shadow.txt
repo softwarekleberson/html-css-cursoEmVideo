@@ -1,0 +1,9 @@
+offset-x (obrigatório): Define o deslocamento horizontal da sombra. Um valor positivo move a sombra para a direita, enquanto um valor negativo a move para a esquerda.
+
+offset-y (obrigatório): Define o deslocamento vertical da sombra. Um valor positivo move a sombra para baixo, enquanto um valor negativo a move para cima.
+
+blur-radius (opcional): Define o raio do desfoque da sombra. Quanto maior o valor, mais difusa será a sombra. Se você não deseja desfoque, pode definir esse valor como 0.
+
+spread-radius (opcional): Define o raio de expansão da sombra. Isso pode fazer com que a sombra seja mais ampla ou mais estreita do que o elemento em si. Um valor positivo aumenta a sombra, enquanto um valor negativo a reduz.
+
+color (opcional): Define a cor da sombra. Você pode especificar uma cor usando palavras-chave (como "red" para vermelho), códigos hexadecimais (#RRGGBB), códigos RGB (rgb(255, 0, 0)), códigos RGBA (rgba(255, 0, 0, 0.5)), ou nomes de cores.

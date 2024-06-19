@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupando Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 1px -2px 9px 2px rgba(0, 0, 0, 0.33);
+            /*
+                Explicação em Box-shadow.txt
+            */
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            /*
+                10px esquerda de cima e direita de baixo
+                0px direita de cima e esquerda de baixo
+            */
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(165, 165, 165);
+        }
+
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding:  10px;
+            margin:  0px;
+        }
+
+        footer > p {
+            margin: 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+
+        <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
+        
+        <nav>
+            <a href="">Link 1</a>
+            <a href="">Link 2</a>
+            <a href="">Link 3</a>
+            <a href="">Link 4</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Economia Esportes Lazer</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <aside>
+                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque nisi debitis quam corporis. Magnam eligendi culpa, voluptates praesentium pariatur, itaque optio laborum assumenda, consectetur voluptatum amet illum eum sed facilis.</p>
+                    <p>Escrito por Guanabara</h3>
+                </aside>
+            </article>
+
+            <article>
+                <aside>
+                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque nisi debitis quam corporis. Magnam eligendi culpa, voluptates praesentium pariatur, itaque optio laborum assumenda, consectetur voluptatum amet illum eum sed facilis.</p>
+                    <p>Escrito por Guanabara</h3>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por kleberson</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+    <form action="cadastrar.html" method="post" autocomplete="on">
+        <label for="usuario">Usuario</label>
+        <input type="text" name="usuario" id="usuario" required minlength="10" maxlength="30" size="10" autocomplete="username" placeholder="Digite seu usuario">
+
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha" required minlength="8" maxlength="12" autocomplete="current-password" placeholder="Digite sua senha">
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetar">
+    </form>
+</body>
+</html>

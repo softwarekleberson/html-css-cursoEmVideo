@@ -1,0 +1,23 @@
+* Cada elemento visivel no html é uma caixa
+    - toda caixa possue altura e largura
+
+* A caixa possui uma borda, que está colada a borda
+    - paara separar essa borda dessa linha, usamos a propriedade
+    - padding
+
+* Da minha caixa para fora temos um outro elemento margem
+    - margin, espaçamento entre a caixa e um outro elemento
+
+
+                        Tipos de caixa
+
+Existem dois tipos de caixas, o BOX-LEVEL e INLINE-LEVEL
+
+BOX-LEVEL : eu tenho os meus elementos quando eu tenho uma nova caixa um novo elemento, esse elemento vai para baixo esse elemento irá ocupar o total espaço da tela. Qualquer outro elemento vai para baixo desta nova caixa
+
+EX : DIV, H1, P, MAIN, HEADER, NAV
+ARTICULE, ASIDE, FOOTER, FORM, VIDEO
+
+INLINE-LEVEL : Nesse tipo o elemento pode ficar junto com outro elemento, as linhas não se quebram por causa dele. As outras inhas continuam o seu destinho
+
+SPAN, A, CODE, SMALL, SMALL, STRONG, EM, SUP, LABEL, BUTTON, INPUT, SELECT

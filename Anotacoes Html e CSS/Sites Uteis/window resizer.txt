@@ -1,0 +1,1 @@
+Extensão do crome (para trabalhar com diferentes formatos de tela)

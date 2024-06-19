@@ -1,0 +1,21 @@
+Em HTML e CSS, um pseudoelemento é um recurso que permite selecionar e estilizar partes específicas de um elemento HTML sem precisar adicionar classes ou IDs extras ao seu código HTML.
+
+Alem disso eu consigo colocar elementos nesse pseudoelemento que não estão no CSS
+
+
+
+            Aqui estão alguns exemplos de pseudoelementos comuns:
+
+::before: Este pseudoelemento permite adicionar conteúdo antes do conteúdo real de um elemento.
+
+::after: Semelhante ao ::before, mas adiciona conteúdo após o conteúdo do elemento.
+
+::first-line: Este pseudoelemento seleciona a primeira linha de texto dentro de um elemento.
+
+::first-letter: Seleciona a primeira letra de um bloco de texto.
+
+::selection: Permite estilizar o texto selecionado pelo usuário.
+
+::placeholder: Estiliza o texto de espaço reservado em campos de entrada.
+
+::marker: Estiliza os marcadores em elementos de lista.
