@@ -1,0 +1,14 @@
+flex-wrap
+
+flex-wrap: nowrap;
+/*O item não quebra, ele expreme até não da mais*/
+
+flex-wrap: wrap
+/*O item quebra, quando o container(pai) acaba
+
+flex-wrap: wrap-reverse
+/*O item quebra, quando o container(pai) acaba, para cima, pois é
+reverse
+
+flex-flow: row nowrap
+/*É um modo de incurtar */

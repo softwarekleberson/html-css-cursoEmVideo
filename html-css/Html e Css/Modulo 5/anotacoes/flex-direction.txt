@@ -1,0 +1,12 @@
+/*Direção da esquerda para direita*/
+flex-direction: row
+
+/*Direção de cima para baixo*/
+flex-direction: column
+
+/*Direção da direita para esquerda, os itens ficam ao contrario*/
+flex-direction: row-reverse;
+
+/*De baixo para cima, os itens começam por baixo e vão para cima*/
+flex-direction: column-reverse;
+
