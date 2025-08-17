@@ -1,1 +1,0 @@
-f8 para executar o javascript no node.js

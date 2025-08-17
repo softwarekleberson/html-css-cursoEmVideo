@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .container {
+            display: flex;
+            flex-flow: row nowrap;
+
+            background-color: aquamarine;
+        }
+
+        .item {
+            flex-basis: 200px;
+
+            background-color: blue;
+            border: 1px solid yellow;
+            text-align: center;
+        }
+
+        #a {
+            flex-grow: 0;
+            flex-shrink: 1;
+        }
+
+        #b {
+            flex-grow: 2;
+            flex-shrink: 1;
+        }
+
+        #c {
+            flex-grow: 4;
+            flex-shrink: 4;
+        }
+    </style>
+
+    <title>Exer 11</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item" id="a">A</div>
+        <div class="item" id="b">B</div>
+        <div class="item" id="c">C</div>
+    </div>
+</body>
+
+</html>
